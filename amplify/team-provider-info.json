@@ -1,0 +1,31 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextjspocbreathinter-staging-120447-authRole",
+      "UnauthRoleArn": "arn:aws:iam::835224793170:role/amplify-nextjspocbreathinter-staging-120447-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::835224793170:role/amplify-nextjspocbreathinter-staging-120447-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-nextjspocbreathinter-staging-120447-deployment",
+      "UnauthRoleName": "amplify-nextjspocbreathinter-staging-120447-unauthRole",
+      "StackName": "amplify-nextjspocbreathinter-staging-120447",
+      "StackId": "arn:aws:cloudformation:eu-west-2:835224793170:stack/amplify-nextjspocbreathinter-staging-120447/d2146550-0691-11ed-9a11-0aa24eb467d4",
+      "AmplifyAppId": "d6k3bysu6nxqe"
+    },
+    "categories": {
+      "auth": {
+        "NextJsPOCBreathinterfacev1": {}
+      },
+      "storage": {
+        "pocbreathtestresultsdev": {
+          "tableName": "poc_breath_test_results-dev",
+          "region": "eu-west-2",
+          "arn": "arn:aws:dynamodb:eu-west-2:835224793170:table/poc_breath_test_results-dev",
+          "partitionKeyName": "patientNum",
+          "partitionKeyType": "N",
+          "sortKeyName": "id",
+          "sortKeyType": "S"
+        }
+      }
+    }
+  }
+}
